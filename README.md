@@ -8,7 +8,7 @@ UAS-TIF K 23 A
 
 ## Kelompok
 <ul>
-  <li>Kelompok: {kelompok}</li>
+  <li>Kelompok: 9</li>
   <li>Proyek: {proyek}</li>
   <li>Anggota:</li>
   <ul>
