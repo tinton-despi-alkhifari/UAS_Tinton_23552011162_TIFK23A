@@ -12,11 +12,11 @@ UAS-TIF K 23 A
   <li>Proyek: Aplikasi ITFix & Supply</li>
   <li>Anggota:</li>
   <ul>
-    <li>Ketua: <a href="">Ketua</a></li>
+    <li>Ketua: <a href="">Wendi</a></li>
     <li>Anggota 1: <a href="">Anggota 1</a></li>
     <li>Anggota 2: <a href="">Anggota 2</a></li>
   </ul>
-</ul>
+</ul> 
 
 ## Judul Studi Kasus
 <p>Aplikasi ITFix & Supply</p>
