@@ -9,7 +9,7 @@ UAS-TIF K 23 A
 ## Kelompok
 <ul>
   <li>Kelompok: 9</li>
-  <li>Proyek: {proyek}</li>
+  <li>Proyek: Aplikasi ITFix & Supply</li>
   <li>Anggota:</li>
   <ul>
     <li>Ketua: <a href="">Ketua</a></li>
@@ -19,18 +19,18 @@ UAS-TIF K 23 A
 </ul>
 
 ## Judul Studi Kasus
-<p>Lorem ipsum sir dolor amet.</p>
+<p>Aplikasi ITFix & Supply</p>
 
 ## Penjelasan Studi Kasus
-<p>Lorem ipsum sir dolor amet.</p>
+<p>Aplikasi ITFix & Supply ini adalah aplikasi yang digunakan oleh pemilik jasa IT untuk mengelola permintaan dari User berupa Perbaikan Perangkat dan Pengadaan Perangkat Baru. Setiap permintaan memiliki formulir yang berbeda.  </p>
 
 ## Penjelasan 4 Pilar OOP dalam Studi Kasus
 
 ### 1. Inheritance
-<p>Lorem ipsum sir dolor amet.</p>
+<p>Implementasi dari Inheritance ini terletak pada class JenisPermintaan sebagai induk dengan kelas keturunan yaitu Perbaikan dan Pengadaan. Pada kelas Jenis Permintaan mencakup JenisPerangkat, MerkPerangkat, sedangkan pada kelas turunan nya, kelas Perbaikan ada tambahan variabel Keluhan dan juga perhitungan harga yang bergantung pada jenisKerusakan (berat dan ringan) dan Sparepart dan untuk kelas Pengadaan ada tambahan variabel Kebutuhan dan perhitungan harga yang bergantung pada kualitasBarang (original dan Lokal), dan pemasokBarang (dalam dan luar negeri). Implementasi pewarisan nya ada pada bagian saat input perihal Perbaikan ataupun Pengadaan diperlukan input variabel dari kelas induknya terlebih dahulu.</p>
 
 ### 2. Encapsulation
-<p>Lorem ipsum sir dolor amet.</p>
+<p>User</p>
 
 ### 3. Polymorphism
 <p>Lorem ipsum sir dolor amet.</p>
