@@ -30,7 +30,7 @@ UAS-TIF K 23 A
 <p>Implementasi dari Inheritance ini terletak pada class JenisPermintaan sebagai induk dengan kelas keturunan yaitu Perbaikan dan Pengadaan. Pada kelas Jenis Permintaan mencakup JenisPerangkat, MerkPerangkat, sedangkan pada kelas turunan nya, kelas Perbaikan ada tambahan variabel Keluhan dan juga perhitungan harga yang bergantung pada jenisKerusakan (berat dan ringan) dan Sparepart dan untuk kelas Pengadaan ada tambahan variabel Kebutuhan dan perhitungan harga yang bergantung pada kualitasBarang (original dan Lokal), dan pemasokBarang (dalam dan luar negeri). Implementasi pewarisan nya ada pada bagian saat input perihal Perbaikan ataupun Pengadaan diperlukan input variabel dari kelas induknya terlebih dahulu.</p>
 
 ### 2. Encapsulation
-<p>User</p>
+<p>Kelas Induk jenisPermintaan ini menyimpan atribut umum yang dimiliki oleh semua jenis permintaan, seperti jenisPerangkat dan merkPerangkat. Variabel-variabel ini diatur sebagai private untuk menjaga data tetap aman, dan hanya dapat diakses melalui metode getter dan setter. Kelas Turunan Perbaikan ini menambahkan atribut khusus seperti keluhan dan metode untuk menghitung harga berdasarkan jenis kerusakan (jenisKerusakan) dan penggunaan sparepart. Sedangkan Kelas Turunan Pengadaan ini menambahkan atribut khusus seperti kebutuhan dan metode untuk menghitung harga berdasarkan kualitas barang dan pemasok.</p>
 
 ### 3. Polymorphism
 <p>Lorem ipsum sir dolor amet.</p>
