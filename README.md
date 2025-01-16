@@ -13,8 +13,8 @@ UAS-TIF K 23 A
   <li>Anggota:</li>
   <ul>
     <li>Ketua: <a href="">Wendi Rahmawan</a></li>
-    <li>Anggota 1: <a href="">Tinton Despi Alkhifari 1</a></li>
-    <li>Anggota 2: <a href="">Ichsan Pratama Putra 2</a></li>
+    <li>Anggota 1: <a href="">Tinton Despi Alkhifari</a></li>
+    <li>Anggota 2: <a href="">Ichsan Pratama Putra</a></li>
   </ul>
 </ul> 
 
