@@ -33,7 +33,7 @@ UAS-TIF K 23 A
 <p>Kelas Induk jenis permintaan ini menyimpan atribut umum yang dimiliki oleh semua jenis permintaan, seperti jenisPerangkat dan merkPerangkat. Variabel-variabel ini diatur sebagai private untuk menjaga data tetap aman, dan hanya dapat diakses melalui metode getter dan setter. Kelas Turunan Perbaikan ini menambahkan atribut khusus seperti keluhan dan metode untuk menghitung harga berdasarkan jenis kerusakan (jenisKerusakan) dan penggunaan sparepart. Sedangkan Kelas Turunan Pengadaan ini menambahkan atribut khusus seperti kebutuhan dan metode untuk menghitung harga berdasarkan kualitas barang dan pemasok.</p>
 
 ### 3. Polymorphism
-<p>Lorem ipsum sir dolor amet.</p>
+<p>Implementasi dari Polimorphism ini ada Pada metode hitung harga, cara perhitungan harga bisa berbeda antara jenis permintaan. Perbaikan menghitung harga berdasarkan jenis Kerusakan dan Apa ada SparePart yang perlu diganti atau tidak, sementara Pengadaan menghitung harga berdasarkan kualitas barang (Original atau KW) dan pemasok (luar atau dalam negeri).</p>
 
 ### 4. Abstract
 <p>Lorem ipsum sir dolor amet.</p>
