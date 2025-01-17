@@ -12,9 +12,9 @@ UAS-TIF K 23 A
   <li>Proyek: Aplikasi ITFix & Supply</li>
   <li>Anggota:</li>
   <ul>
-    <li>Ketua: <a href="">Wendi Rahmawan</a></li>
-    <li>Anggota 1: <a href="">Tinton Despi Alkhifari</a></li>
-    <li>Anggota 2: <a href="">Ichsan Pratama Putra</a></li>
+    <li>Ketua: <a href="https://github.com/wenrahma">Wendi Rahmawan</a></li>
+    <li>Anggota 1: <a href="https://github.com/tinton-despi-alkhifari">Tinton Despi Alkhifari</a></li>
+    <li>Anggota 2: <a href="https://github.com/Ichsanpratamap">Ichsan Pratama Putra</a></li>
   </ul>
 </ul> 
 
