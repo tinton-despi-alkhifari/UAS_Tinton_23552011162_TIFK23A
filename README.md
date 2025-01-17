@@ -33,7 +33,7 @@ Permintaan Pengadaan Perangkat Baru: Formulir ini digunakan oleh pengguna yang m
 ### 1. Inheritance
 <p>Implementasi dari Inheritance terletak pada kelas JenisPermintaan sebagai kelas induk, dengan kelas turunan Perbaikan dan Pengadaan.
 
-Kelas JenisPermintaan mencakup atribut umum seperti JenisPerangkat, MerkPerangkat dan NamaUser.
+Kelas JenisPermintaan mencakup atribut umum seperti JenisPerangkat, MerkPerangkat, NamaUser, dan Harga.
 Kelas Perbaikan memiliki tambahan atribut:
 Keluhan, untuk mencatat masalah perangkat.
 JenisKerusakan, yang menentukan apakah kerusakan termasuk "berat" atau "ringan".
