@@ -60,10 +60,27 @@ Subclass Pengadaan mengimplementasikan metode ini untuk menentukan kebutuhan bar
 <p>Lorem ipsum sir dolor amet.</p>
 
 ## Tampilan Aplikasi
-<p>Lorem ipsum sir dolor amet.</p>
+<p>1. Halaman Login</p>
+![image](https://github.com/user-attachments/assets/c2288533-4b88-4d74-8eb4-7ec07d22d2a2)
+<p>2. Halaman Dashboard (Admin)</p>
+![image](https://github.com/user-attachments/assets/2cfaca8b-8fc0-4674-9794-591e56874ef8)
+<p>3. Halaman Permintaan (Admin)</p>
+![image](https://github.com/user-attachments/assets/50a75d6c-2518-4963-95f5-c181714f4435)
+<p>4. Halaman User (Admin)</p>
+![image](https://github.com/user-attachments/assets/61ce573b-2970-4d08-9f3d-3d7df80e417f)
+<p>5. Halaman Dashboard (User)</p>
+![image](https://github.com/user-attachments/assets/f9e9c65b-0ca5-4090-b7ac-97db45ce09df)
+<p>6. Halaman Permintaan (User)</p>
+![image](https://github.com/user-attachments/assets/83b984c9-555d-4802-927a-c56d6bf8c2d9)
+<p>7. Modal Add dan Edit User</p>
+![image](https://github.com/user-attachments/assets/48eca4d4-031f-415f-80ab-afde34b85bcd)
+<p>8. Modal Add dan Edit Permintaan</p>
+![image](https://github.com/user-attachments/assets/3ccce134-adc1-40f3-947d-780604b5aa57)
+
+
 
 ## Demo Proyek
 <ul>
-  <li>Github: <a href="">Github</a></li>
+  <li>Github: <a href="https://github.com/wenrahma/UAS/">Github</a></li>
   <li>Youtube: <a href="">Youtube</a></li>
 </ul>
