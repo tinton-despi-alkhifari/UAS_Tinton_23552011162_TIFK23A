@@ -61,23 +61,21 @@ Subclass Pengadaan mengimplementasikan metode ini untuk menentukan kebutuhan bar
 
 ## Tampilan Aplikasi
 <p>1. Halaman Login</p>
-![image](https://github.com/user-attachments/assets/c2288533-4b88-4d74-8eb4-7ec07d22d2a2)
+![Halaman Login](https://raw.githubusercontent.com/wenrahma/UAS/main/gambar/login.png)
 <p>2. Halaman Dashboard (Admin)</p>
-![image](https://github.com/user-attachments/assets/2cfaca8b-8fc0-4674-9794-591e56874ef8)
+![Halaman Dasboard Admin](https://raw.githubusercontent.com/wenrahma/UAS/main/gambar/dashboardadmin.png)
 <p>3. Halaman Permintaan (Admin)</p>
-![image](https://github.com/user-attachments/assets/50a75d6c-2518-4963-95f5-c181714f4435)
+![Halaman Permintaan Admin](https://raw.githubusercontent.com/wenrahma/UAS/main/gambar/permintaanadmin.png)
 <p>4. Halaman User (Admin)</p>
-![image](https://github.com/user-attachments/assets/61ce573b-2970-4d08-9f3d-3d7df80e417f)
+![Halaman User Admin](https://raw.githubusercontent.com/wenrahma/UAS/main/gambar/useradmin.png)
 <p>5. Halaman Dashboard (User)</p>
-![image](https://github.com/user-attachments/assets/f9e9c65b-0ca5-4090-b7ac-97db45ce09df)
+![Halaman Dasboard User](https://raw.githubusercontent.com/wenrahma/UAS/main/gambar/dashboarduser.png)
 <p>6. Halaman Permintaan (User)</p>
-![image](https://github.com/user-attachments/assets/83b984c9-555d-4802-927a-c56d6bf8c2d9)
+![Halaman Permintaan User](https://raw.githubusercontent.com/wenrahma/UAS/main/gambar/permintaanuser.png)
 <p>7. Modal Add dan Edit User</p>
-![image](https://github.com/user-attachments/assets/48eca4d4-031f-415f-80ab-afde34b85bcd)
+![Halaman Modal User](https://raw.githubusercontent.com/wenrahma/UAS/main/gambar/modaluser.png)
 <p>8. Modal Add dan Edit Permintaan</p>
-![image](https://github.com/user-attachments/assets/3ccce134-adc1-40f3-947d-780604b5aa57)
-
-
+![Halaman Modal Permintaan](https://raw.githubusercontent.com/wenrahma/UAS/main/gambar/modalpermintaan.png)
 
 ## Demo Proyek
 <ul>
