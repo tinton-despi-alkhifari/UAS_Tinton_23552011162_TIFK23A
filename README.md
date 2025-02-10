@@ -19,45 +19,46 @@ UAS-TIF K 23 A
 </ul> 
 
 ## Judul Studi Kasus
-<p>Aplikasi ITFix & Supply</p>
+<p>Aplikasi Manajemen Pengadaan</p>
 
 ## Penjelasan Studi Kasus
-<p>Aplikasi ITFix & Supply adalah sistem manajemen yang dirancang khusus untuk membantu pemilik jasa IT dalam mengelola permintaan dari pengguna terkait perbaikan perangkat dan pengadaan perangkat baru. Aplikasi ini menyediakan formulir yang berbeda untuk masing-masing jenis permintaan, yaitu:
-
-Permintaan Perbaikan Perangkat: Formulir ini memungkinkan pengguna untuk mengajukan permintaan perbaikan perangkat yang rusak, mencakup informasi seperti jenis kerusakan, keluhan, jenis perangkat yang rusak, serta apakah ada kebutuhan untuk penggantian sparepart.
-
-Permintaan Pengadaan Perangkat Baru: Formulir ini digunakan oleh pengguna yang membutuhkan pengadaan perangkat baru, baik dalam jumlah besar maupun kecil, dengan memasukkan informasi tentang jenis perangkat, kebutuhan, kualitas barang (original atau lokal), serta pemasok barang (dalam atau luar negeri).  </p>
+<p>Aplikasi Manajemen Pengadaan adalah sistem manajemen yang dirancang khusus untuk membantu divisi Pengadaan dalam mengelola permintaan dari pengguna terkait Pengadaan Barang Baru. Aplikasi ini mengumpulkan data data pengajuan pengadaan dari divisi lain. Ada 2 role user pada aplikasi ini yaitu Admin dan User, Admin dapat manage User (CRUD) dan akses penuh dalam manage Permintaan Pengadaan (CRUD), sedangkan User hanya dapat menambah data melihat data Permintaan Pengadaan. Ada 2 kondisi penentuan harga dalam aplikasi ini, dimana jika barang Lokal harga akan tetap sesuai yang diinputkan tetapi jika barang Impor maka harga akan dikali 2 untuk biaya bea cukai dan biaya biaya tambahan lainnya. </p>
 
 ## Penjelasan 4 Pilar OOP dalam Studi Kasus
 
 ### 1. Inheritance
-<p>Implementasi dari Inheritance terletak pada kelas JenisPermintaan sebagai kelas induk, dengan kelas turunan Perbaikan dan Pengadaan.
-
-Kelas JenisPermintaan mencakup atribut umum seperti JenisPerangkat, MerkPerangkat, NamaUser, dan Harga.
-Kelas Perbaikan memiliki tambahan atribut:
-Keluhan, untuk mencatat masalah perangkat.
-JenisKerusakan, yang menentukan apakah kerusakan termasuk "berat" atau "ringan".
-SparePart, untuk menentukan apakah ada penggantian suku cadang.
-Kelas Pengadaan memiliki tambahan atribut:
-Kebutuhan, untuk mencatat jumlah atau spesifikasi barang yang diperlukan.
-KualitasBarang, untuk mencatat apakah barang bersifat "Original" atau "Lokal".
-PemasokBarang, untuk mencatat apakah pemasok berasal dari "Dalam Negeri" atau "Luar Negeri".
-Implementasi pewarisan:
-Saat pengguna melakukan input data permintaan, atribut dari kelas induk seperti JenisPerangkat dan MerkPerangkat harus diisi terlebih dahulu sebelum data spesifik dari kelas turunan (Perbaikan atau Pengadaan) dimasukkan.</p>
+<p>Implementasi dari Inheritance terletak pada Permintaan.java sebagai induk, dimana berisi nama user, divisi user, perangkat, keterangan, harga, tipe dan is complete. Turunan pada aplikasi ini adalah PemintaanLokal.java dan PermintaanImport.java. Pada Turunan tidak ada variabel tambahan, keduanya hanya mengambil variabel dari kelas induk. </p>
 
 ### 2. Encapsulation
-<p>Kelas Induk jenis permintaan ini menyimpan atribut umum yang dimiliki oleh semua jenis permintaan, seperti jenisPerangkat dan merkPerangkat. Variabel-variabel ini diatur sebagai private untuk menjaga data tetap aman, dan hanya dapat diakses melalui metode getter dan setter. Kelas Turunan Perbaikan ini menambahkan atribut khusus seperti keluhan dan metode untuk menghitung harga berdasarkan jenis kerusakan (jenisKerusakan) dan penggunaan sparepart. Sedangkan Kelas Turunan Pengadaan ini menambahkan atribut khusus seperti kebutuhan dan metode untuk menghitung harga berdasarkan kualitas barang dan pemasok.</p>
+<p>Kelas Induk jenis permintaan ini menyimpan atribut umum yang dimiliki oleh semua jenis permintaan pengadaan. Variabel-variabel ini diatur sebagai private untuk menjaga data tetap aman, dan hanya dapat diakses melalui metode getter dan setter.</p>
 
 ### 3. Polymorphism
-<p>Implementasi dari Polimorphism ini ada Pada metode hitung harga, cara perhitungan harga bisa berbeda antara jenis permintaan. Perbaikan menghitung harga berdasarkan jenis Kerusakan dan Apa ada SparePart yang perlu diganti atau tidak, sementara Pengadaan menghitung harga berdasarkan kualitas barang (Original atau KW) dan pemasok (luar atau dalam negeri).</p>
+<p>Implementasi dari Polimorphism ini ada Pada metode calculateHarga, cara perhitungan harga bisa berbeda antara tipe permintaan. Jika tipe permintaan merupakan Lokal, maka harga sesuai dengan yang diupdate pada field harga sedangkan jika tipe permintaan Import maka harga yang sama dikali 2. </p>
 
 ### 4. Abstract
-<p>LayananPermintaan adalah kelas abstrak yang menyediakan struktur dasar untuk mengelola permintaan, dengan metode abstrak seperti inputPermintaan(), prosesPermintaan() dan selesaikanPermintaan().
-Subclass Perbaikan mengimplementasikan metode ini dengan logika untuk menangani keluhan dan penggantian sparepart.
-Subclass Pengadaan mengimplementasikan metode ini untuk menentukan kebutuhan barang, kualitas, dan pemasok.</p>
+<p>Implementasi dari Abstract ini terletak pada Permintaan.java dengan ditandai dengan punbli abstract class, yang dimana di dalamnya membuat sebuah metode dengan nama calculateHarga, metode ini digunakan pada kelas turunan PermintaanImport dan PermintaanLokal, menggunakan metode yang sama dari abstract tetapi memiliki hasil berbeda sesuai dengan kondisi yang dibuat di class pemanggil method abstract nya.</p>
 
 ## Struktur Tabel Aplikasi
-<p>Lorem ipsum sir dolor amet.</p>
+### 1. **Tabel `permintaan`**
+| Kolom         | Tipe Data       | Keterangan |
+|--------------|---------------|------------|
+| `id`        | INT    | Primary Key |
+| `nama_user`       | VARCHAR(50)    |  |
+| `divisi_user`      | VARCHAR(20)    |  |
+| `perangkat` | VARCHAR(50)  |  |
+| `keterangan`      | TEXT    |  |
+| `harga`   | DOUBLE           |  |
+| `tipe`   | VARCHAR(10)           |  |
+| `is_complete` | TINYINT(1) |  |
+
+### 2. **Tabel `users`**
+| Kolom       | Tipe Data      | Keterangan |
+|------------|--------------|------------|
+| `id_user`  | INT          | Primary Key (Auto Increment) |
+| `namauser` | VARCHAR(50)  |  |
+| `username` | VARCHAR(50) |  |
+| `password`     | VARCHAR(50) |  |
+| `role`      | VARCHAR(20)  |  |
 
 ### Login
 <p align="center">
@@ -105,5 +106,5 @@ Subclass Pengadaan mengimplementasikan metode ini untuk menentukan kebutuhan bar
 ## Demo Proyek
 <ul>
   <li>Github: <a href="https://github.com/wenrahma/UAS/">Github</a></li>
-  <li>Youtube: <a href="">Youtube</a></li>
+  <li>Youtube: <a href="https://youtu.be/GHhHke5865Q">Youtube</a></li>
 </ul>
