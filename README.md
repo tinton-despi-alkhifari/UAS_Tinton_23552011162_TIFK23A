@@ -67,7 +67,7 @@ Subclass Pengadaan mengimplementasikan metode ini untuk menentukan kebutuhan bar
 ### Tampilan Admin
 - Dashboard
 <p align="center">
-  <img src="gambar/dashboardadmin.png" width="50">
+  <img src="gambar/dashboardadmin.png" width="500">
 </p>
 
 - Permintaan
@@ -83,7 +83,7 @@ Subclass Pengadaan mengimplementasikan metode ini untuk menentukan kebutuhan bar
 ### User
 - Dashboard
 <p align="center">
-  <img src="gambar/dashboarduser.png" width="50">
+  <img src="gambar/dashboarduser.png" width="500">
 </p>
 
 - Permintaan
@@ -94,11 +94,11 @@ Subclass Pengadaan mengimplementasikan metode ini untuk menentukan kebutuhan bar
 ### Modal
 - Modal Permintaan
 <p align="center">
-  <img src="gambar/modalpermintaan" width="50">
+  <img src="gambar/modalpermintaan.png" width="500">
 </p>
 - Modal User
 <p align="center">
-  <img src="gambar/modaluser" width="50">
+  <img src="gambar/modaluser.png" width="500">
 </p>
   
 ## Demo Proyek
