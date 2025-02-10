@@ -59,24 +59,48 @@ Subclass Pengadaan mengimplementasikan metode ini untuk menentukan kebutuhan bar
 ## Struktur Tabel Aplikasi
 <p>Lorem ipsum sir dolor amet.</p>
 
-## Tampilan Aplikasi
-<p>1. Halaman Login</p>
-![Halaman Login]raw.githubusercontent.com/wenrahma/UAS/main/gambar/login.png)
-<p>2. Halaman Dashboard (Admin)</p>
-![Halaman Dasboard Admin](https://raw.githubusercontent.com/wenrahma/UAS/main/gambar/dashboardadmin.png)
-<p>3. Halaman Permintaan (Admin)</p>
-![Halaman Permintaan Admin](https://raw.githubusercontent.com/wenrahma/UAS/main/gambar/permintaanadmin.png)
-<p>4. Halaman User (Admin)</p>
-![Halaman User Admin](https://raw.githubusercontent.com/wenrahma/UAS/main/gambar/useradmin.png)
-<p>5. Halaman Dashboard (User)</p>
-![Halaman Dasboard User](https://raw.githubusercontent.com/wenrahma/UAS/main/gambar/dashboarduser.png)
-<p>6. Halaman Permintaan (User)</p>
-![Halaman Permintaan User](https://raw.githubusercontent.com/wenrahma/UAS/main/gambar/permintaanuser.png)
-<p>7. Modal Add dan Edit User</p>
-![Halaman Modal User](https://raw.githubusercontent.com/wenrahma/UAS/main/gambar/modaluser.png)
-<p>8. Modal Add dan Edit Permintaan</p>
-![Halaman Modal Permintaan](https://raw.githubusercontent.com/wenrahma/UAS/main/gambar/modalpermintaan.png)
+### Login
+<p align="center">
+  <img src="gambar/login.png" width="500">
+</p>
 
+### Tampilan Admin
+- Dashboard
+<p align="center">
+  <img src="gambar/dashboardadmin" width="50">
+</p>
+
+- Permintaan
+<p align="center">
+  <img src="gambar/permintaanadmin.png" width="500">
+</p>
+
+- User
+<p align="center">
+  <img src="gambar/useradmin.png" width="500">
+</p>
+
+### User
+- Dashboard
+<p align="center">
+  <img src="gambar/dashboarduser" width="50">
+</p>
+
+- Permintaan
+<p align="center">
+  <img src="gambar/permintaanuser.png" width="500">
+</p>
+
+### Modal
+- Modal Permintaan
+<p align="center">
+  <img src="gambar/modalpermintaan" width="50">
+</p>
+- Modal User
+<p align="center">
+  <img src="gambar/modaluser" width="50">
+</p>
+  
 ## Demo Proyek
 <ul>
   <li>Github: <a href="https://github.com/wenrahma/UAS/">Github</a></li>
