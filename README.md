@@ -61,7 +61,7 @@ Subclass Pengadaan mengimplementasikan metode ini untuk menentukan kebutuhan bar
 
 ## Tampilan Aplikasi
 <p>1. Halaman Login</p>
-![Halaman Login](https://raw.githubusercontent.com/wenrahma/UAS/main/gambar/login.png)
+![Halaman Login]raw.githubusercontent.com/wenrahma/UAS/main/gambar/login.png)
 <p>2. Halaman Dashboard (Admin)</p>
 ![Halaman Dasboard Admin](https://raw.githubusercontent.com/wenrahma/UAS/main/gambar/dashboardadmin.png)
 <p>3. Halaman Permintaan (Admin)</p>
