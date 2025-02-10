@@ -94,11 +94,11 @@ Subclass Pengadaan mengimplementasikan metode ini untuk menentukan kebutuhan bar
 ### Modal
 - Modal Permintaan
 <p align="center">
-  <img src="gambar/modalpermintaan.png" width="500">
+  <img src="gambar/modalpermintaan.png" width="200">
 </p>
 - Modal User
 <p align="center">
-  <img src="gambar/modaluser.png" width="500">
+  <img src="gambar/modaluser.png" width="200">
 </p>
   
 ## Demo Proyek
